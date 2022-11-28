@@ -27,7 +27,7 @@ public class JavaConfig {
 
 	@Bean
 	public DriverManagerDataSource getConnection() {
-		return new DriverManagerDataSource("jdbc:mysql://localhost:3306/springjdbc","root","root");
+		return new DriverManagerDataSource("jdbc:mysql://localhost:3306/springjdbc","root","");
 	}
 	
 	@Bean
